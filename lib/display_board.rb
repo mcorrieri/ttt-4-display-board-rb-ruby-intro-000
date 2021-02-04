@@ -10,7 +10,8 @@ def display_board(board)
 
 end
 
-board[4] = "X"
+board[8] = "X"
+board[0] = "O"
 display_board(board)
 # Define display_board that accepts a board and prints
 # out the current state.
